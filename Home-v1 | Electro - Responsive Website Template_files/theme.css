@@ -86,7 +86,9 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #333e48;
+  /*color: #333e48;*/
+  /*color: white;*/
+  color: violet;
   text-align: left;
   /*background-color: #fff;*/
   background-color: black;
@@ -182,13 +184,15 @@ sup {
 }
 
 a {
-  color: #fed700;
+  /*color: #fed700;*/
+  color: violet;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #333e48;
+  /*color: #333e48;*/
+  color: red;
   text-decoration: none;
 }
 
@@ -241,7 +245,8 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: rgba(0, 0, 0, 0.2);
+  /*color: rgba(0, 0, 0, 0.2);*/
+  color: red;
   text-align: left;
   caption-side: bottom;
 }
@@ -464,7 +469,8 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  /*background-color: #fcf8e3;*/
+  background-color: red;
 }
 
 .list-unstyled {
@@ -498,7 +504,8 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #8c98a4;
+/*  color: #8c98a4;*/
+  color: red;
 }
 
 .blockquote-footer::before {
@@ -512,7 +519,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: red;
   border: 1px solid #e7eaf3;
   border-radius: 0.3125rem;
   max-width: 100%;
@@ -530,12 +538,14 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #8c98a4;
+  /*color: #8c98a4;*/
+  color: red;
 }
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  /*color: #e83e8c;*/
+  color: red;
   word-break: break-word;
 }
 
@@ -546,8 +556,10 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #fff;
-  background-color: #1e2022;
+  /*color: #fff;*/
+  color: red;
+  /*background-color: #1e2022;*/
+  background-color: green;
   border-radius: 0.25rem;
 }
 
@@ -560,7 +572,8 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #1e2022;
+  /*color: #1e2022;*/
+  color: red;
 }
 
 pre code {
@@ -1722,7 +1735,8 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #333e48;
+  /*color: #333e48;*/
+  color: red;
 }
 
 .table th,
@@ -2566,7 +2580,8 @@ pre code {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #818181;
+  /*color: #818181;*/
+  color: red;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #dddddd;
@@ -3104,6 +3119,7 @@ textarea.form-control {
   }
 }
 
+/*ПОИСК*/
 .btn:hover {
   color: #333e48;
   text-decoration: none;
@@ -20945,7 +20961,8 @@ button:focus {
 }
 
 .u-header__nav-item:hover .u-header__nav-link, .u-header__nav-item:focus .u-header__nav-link {
-  color: #000000;
+  /*color: #000000;*/
+  color: yellow;
 }
 
 /* Nav Link */
@@ -28062,11 +28079,13 @@ label.btn {
 }
 
 .u-sidebar--account__toggle-bg:hover .u-sidebar--account__toggle-text {
-  color: #fed700;
+  /*color: #fed700;*/
+  color: red;
 }
 
 .u-sidebar--account__toggle-text {
-  color: #333e48;
+  /*color: #333e48;*/
+  color: red;
   font-size: .75rem;
   vertical-align: middle;
   margin-right: .3125rem;
@@ -33094,7 +33113,9 @@ blockquote:not(.blockquote) p {
 /* Header-Menu */
 .u-header__navbar-nav .u-header__nav-link {
   font-weight: 700;
-  color: #333e48;
+  /*color: #333e48;*/
+  /*color: white;*/
+  color: pink;
 }
 
 .u-header__navbar-nav .u-header__sub-menu-nav-link {
@@ -33146,7 +33167,9 @@ blockquote:not(.blockquote) p {
   top: 100%;
   left: 0;
   right: 0;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background: linear-gradient(to right, black 0%, #202020 100%);
+  /*opacity: 0.4;*/
   border-bottom-right-radius: 0.4375rem;
   border-bottom-left-radius: 0.4375rem;
   z-index: 1000;
@@ -33213,13 +33236,15 @@ blockquote:not(.blockquote) p {
 .u-header .vertical-menu .u-header__nav-item.hs-mega-menu-opened .u-header__nav-link, .u-header .vertical-menu .u-header__nav-item.hs-sub-menu-opened .u-header__nav-link,
 .u-header + main .vertical-menu .u-header__nav-item.hs-mega-menu-opened .u-header__nav-link,
 .u-header + main .vertical-menu .u-header__nav-item.hs-sub-menu-opened .u-header__nav-link {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+  background-color: blue;
   font-weight: 700;
 }
 
 .u-header .vertical-menu .u-header__nav-item[data-event="hover"]:hover .u-header__nav-link,
 .u-header + main .vertical-menu .u-header__nav-item[data-event="hover"]:hover .u-header__nav-link {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+  /*background-color: green;*/
   font-weight: 700;
 }
 
@@ -35225,7 +35250,8 @@ blockquote:not(.blockquote) p {
 }
 
 .text-gray-90 {
-  color: #333e48;
+  /*color: #333e48;*/
+  color: yellow;
 }
 
 .text-gray-90[href]:hover {
