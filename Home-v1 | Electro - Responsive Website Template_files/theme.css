@@ -67,6 +67,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /*background-color: red;*/
 }
 
 html {
@@ -87,8 +88,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   /*color: #333e48;*/
-  /*color: white;*/
-  color: violet;
+  color: white;
+  /*color: violet;*/
   text-align: left;
   /*background-color: #fff;*/
   background-color: black;
@@ -8123,7 +8124,8 @@ a.badge-indigo:focus, a.badge-indigo.focus {
 
 .list-group-item-action {
   width: 100%;
-  color: #333e48;
+  /*color: #333e48;*/
+  color: white;
   text-align: inherit;
 }
 
@@ -9806,7 +9808,9 @@ button.bg-red:focus {
 }
 
 .bg-gray-1 {
-  background-color: #f5f5f5 !important;
+  /*background-color: #f5f5f5 !important;*/
+  background-color: #282828 !important;
+  border-radius: 45px;
 }
 
 a.bg-gray-1:hover, a.bg-gray-1:focus,
@@ -9866,7 +9870,8 @@ button.bg-gray-6:focus {
 }
 
 .bg-gray-7 {
-  background-color: #f9f9f9 !important;
+  /*background-color: #f9f9f9 !important;*/
+  background-color: #202020 !important;
 }
 
 a.bg-gray-7:hover, a.bg-gray-7:focus,
@@ -9896,7 +9901,8 @@ button.bg-gray-9:focus {
 }
 
 .bg-gray-13 {
-  background-color: #f8f8f8 !important;
+  /*background-color: #f8f8f8 !important;*/
+  background-color: #202020 !important;
 }
 
 a.bg-gray-13:hover, a.bg-gray-13:focus,
@@ -9976,7 +9982,8 @@ button.bg-indigo:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  /*background-color: #fff !important;*/
+  background-color: black !important;
 }
 
 .bg-transparent {
@@ -20866,7 +20873,7 @@ button:focus {
 .u-header__section {
   position: relative;
   z-index: 1;
-  /*background-color: #fff;*/
+  /*background-color: green;*/
   background-color: black;
   box-shadow: 0 1px 10px rgba(151, 164, 175, 0.1);
 }
@@ -27999,7 +28006,8 @@ label.btn {
   z-index: 1002;
   width: 18.75rem;
   height: 100%;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: black;
   box-shadow: -13px 0 20px rgba(119, 131, 143, 0.08);
 }
 
@@ -28080,12 +28088,12 @@ label.btn {
 
 .u-sidebar--account__toggle-bg:hover .u-sidebar--account__toggle-text {
   /*color: #fed700;*/
-  color: red;
+  color: green;
 }
 
 .u-sidebar--account__toggle-text {
   /*color: #333e48;*/
-  color: red;
+  color: blue;
   font-size: .75rem;
   vertical-align: middle;
   margin-right: .3125rem;
@@ -33114,8 +33122,8 @@ blockquote:not(.blockquote) p {
 .u-header__navbar-nav .u-header__nav-link {
   font-weight: 700;
   /*color: #333e48;*/
-  /*color: white;*/
-  color: pink;
+  color: white;
+  /*color: pink;*/
 }
 
 .u-header__navbar-nav .u-header__sub-menu-nav-link {
@@ -34615,7 +34623,7 @@ blockquote:not(.blockquote) p {
   border-width: 2px;
   padding: .5rem .3rem;
   font-size: 1.125rem;
-  color: #343f49;
+  color: white;
 }
 
 .nav-tab .nav-link:hover {
@@ -34624,7 +34632,7 @@ blockquote:not(.blockquote) p {
 
 .nav-tab .nav-link.active {
   font-weight: 700;
-  color: #343f49;
+  color: yellow;
   position: relative;
 }
 
